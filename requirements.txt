@@ -1,5 +1,6 @@
 stable-baselines==2.7.0
 -e git+https://github.com/sunblaze-ucb/rl-generalization.git@5e05aa108aeadd4cf21f45d56128e9da3bddc14c#egg=sunblaze_envs
+pip3 install git+https://github.com/sunblaze-ucb/rl-generalization.git@5e05aa108aeadd4cf21f45d56128e9da3bddc14c#egg=sunblaze_envs -e .
 tensorflow-gpu==1.14.0
 numpy==1.17.0
 gym==0.10.8
